@@ -354,6 +354,13 @@ module.exports = {
         source: 'zarm/tab-bar/demo.md',
         style: false,
       },
+      {
+        key: 'grid',
+        name: '宫格',
+        module: () => import('zarm/grid/demo.md'),
+        source: 'zarm/grid/demo.md',
+        style: true,
+      },
     ],
     hooks: [
       {
@@ -405,7 +412,7 @@ module.exports = {
         name: '全局配置（新）',
         module: () => import('zarm/n-config-provider/demo.md'),
         source: 'zarm/n-config-provider/demo.md',
-        style: false,
+        style: true,
       },
       {
         key: 'drag',

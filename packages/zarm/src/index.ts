@@ -4,6 +4,7 @@ export { default as WaterMark } from './water-mark';
 export type { CollapseProps, CollapseItemProps } from './collapse';
 export { default as Collapse } from './collapse';
 
+export type { ActionSheetProps } from './action-sheet';
 export { default as ActionSheet } from './action-sheet';
 
 export type { AlertProps } from './alert';
@@ -153,6 +154,9 @@ export { default as StackPicker } from './stack-picker';
 
 export type { AffixProps } from './affix';
 export { default as Affix } from './affix';
+
+export type { GridProps } from './grid';
+export { default as Grid } from './grid';
 
 export type { DragProps } from './drag';
 export { default as Drag } from './drag';

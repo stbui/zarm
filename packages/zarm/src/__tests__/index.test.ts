@@ -150,7 +150,17 @@ describe('index', () => {
           },
           "render": [Function],
         },
-        "Icon": [Function],
+        "Icon": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "createFromIconfont": [Function],
+          "defaultProps": Object {
+            "prefixCls": "za-icon",
+            "size": "md",
+            "theme": "default",
+            "viewBox": "0 0 32 32",
+          },
+          "render": [Function],
+        },
         "ImagePreview": Object {
           "$$typeof": Symbol(react.forward_ref),
           "defaultProps": Object {
@@ -212,7 +222,15 @@ describe('index', () => {
           "render": [Function],
           "useLoading": [Function],
         },
-        "Marquee": [Function],
+        "Marquee": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "delay": 0,
+            "direction": "left",
+            "speed": 30,
+          },
+          "render": [Function],
+        },
         "Mask": Object {
           "$$typeof": Symbol(react.forward_ref),
           "defaultProps": Object {
